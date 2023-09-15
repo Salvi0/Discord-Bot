@@ -20,7 +20,7 @@
 	"devDependencies": {
 		"@types/debug": "^4.1.8",
 		"@types/lodash": "^4.14.198",
-		"@types/node": "^17.0.44",
+		"@types/node": "^20.6.1",
 		"dotenv": "^16.3.1",
 		"ts-devscript": "3.0.7"
 	}
