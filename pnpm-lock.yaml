@@ -37,8 +37,8 @@ importers:
         specifier: ^17.0.44
         version: 17.0.45
       dotenv:
-        specifier: ^16.5.0
-        version: 16.5.0
+        specifier: ^16.6.0
+        version: 16.6.0
       ts-devscript:
         specifier: 3.0.7
         version: 3.0.7
@@ -606,8 +606,8 @@ packages:
   displayastree@2.0.0:
     resolution: {integrity: sha512-v3mQ/DTdrOiVxk1Jmut/ywN5uCTYNThcW71+Kn+w8fw2xkFYRyC0kbrXNuduXVLfkXVTpa2HYdz6bImiGyhkEg==}
 
-  dotenv@16.5.0:
-    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+  dotenv@16.6.0:
+    resolution: {integrity: sha512-Omf1L8paOy2VJhILjyhrhqwLIdstqm1BvcDPKg4NGAlkwEu9ODyrFbvk8UymUOMCT+HXo31jg1lArIrVAAhuGA==}
     engines: {node: '>=12'}
 
   duplexer3@0.1.4:
@@ -2142,7 +2142,7 @@ snapshots:
 
   displayastree@2.0.0: {}
 
-  dotenv@16.5.0: {}
+  dotenv@16.6.0: {}
 
   duplexer3@0.1.4: {}
 
