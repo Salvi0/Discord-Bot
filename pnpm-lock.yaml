@@ -34,8 +34,8 @@ importers:
         specifier: ^4.17.20
         version: 4.17.20
       '@types/node':
-        specifier: ^17.0.44
-        version: 17.0.45
+        specifier: ^24.3.0
+        version: 24.3.0
       dotenv:
         specifier: ^16.6.1
         version: 16.6.1
@@ -401,8 +401,8 @@ packages:
   '@types/node-fetch@2.6.1':
     resolution: {integrity: sha512-oMqjURCaxoSIsHSr1E47QHzbmzNR5rK8McHuNb11BOM9cHcIK3Avy0s/b2JlXHoQGTYS3NsvWzV1M0iK7l0wbA==}
 
-  '@types/node@17.0.45':
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+  '@types/node@24.3.0':
+    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
   '@types/responselike@1.0.0':
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -1098,6 +1098,9 @@ packages:
   typical@4.0.0:
     resolution: {integrity: sha512-VAH4IvQ7BDFYglMd7BPRDfLgxZZX4O4TFcRDA6EN5X7erNJJq+McIEp8np9aVtxrCJ6qx4GTYVfOWNjcqwZgRw==}
     engines: {node: '>=8'}
+
+  undici-types@7.10.0:
+    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
   undici@5.22.1:
     resolution: {integrity: sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==}
@@ -1897,7 +1900,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
 
   '@types/lodash@4.17.20': {}
 
@@ -1905,25 +1908,27 @@ snapshots:
 
   '@types/node-fetch@2.6.1':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
       form-data: 3.0.1
 
-  '@types/node@17.0.45': {}
+  '@types/node@24.3.0':
+    dependencies:
+      undici-types: 7.10.0
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
 
   '@types/webidl-conversions@6.1.1': {}
 
   '@types/whatwg-url@8.2.1':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
       '@types/webidl-conversions': 6.1.1
 
   '@types/ws@8.5.5':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
 
   '@vladfrangu/async_event_emitter@2.2.2': {}
 
@@ -2641,6 +2646,8 @@ snapshots:
   typescript@4.9.5: {}
 
   typical@4.0.0: {}
+
+  undici-types@7.10.0: {}
 
   undici@5.22.1:
     dependencies:
